@@ -1,0 +1,25 @@
+<xml>
+  <navigation type="simple">
+    <items>
+      <item icon="cover.png" text="tab1" />
+      <item icon="index.png" text="tab2" />
+      <item icon="content.png" text="tab3" />
+      <item icon="coffee.png" text="tab4" />
+    </items>
+  </navigation>
+  <targetplatform simulator="Android">Android</targetplatform>
+  <template price="199.99" id="BlankTemplate" scaleWebPagesToBaseResolution="false" />
+  <prop id="appname" title="App Name">AB02</prop>
+  <prop id="tab1text" title="Tab1 Text">tab1</prop>
+  <prop id="tab1icon" title="Tab1 Icon">cover.png</prop>
+  <prop id="tab2text" title="Tab2 Text">tab2</prop>
+  <prop id="tab2icon" title="Tab2 Icon">index.png</prop>
+  <prop id="tab3text" title="Tab3 Text">tab3</prop>
+  <prop id="tab3icon" title="Tab3 Icon">content.png</prop>
+  <prop id="tab4text" title="Tab4 Text">tab4</prop>
+  <prop id="tab4icon" title="Tab4 Icon">coffee.png</prop>
+  <planname>Basic</planname>
+  <page id="index.html" type="circlemenu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" />
+  <page id="PanelLeft.html" type="iOS7Menu" kind="html" transition="" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="false" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" />
+  <page id="PanelRight.html" type="RightSidePanel" kind="html" transition="" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="false" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" />
+</xml>
